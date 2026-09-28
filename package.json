@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-cookie-parser",
+  "version": "1.0.0",
+  "description": "Parses raw HTTP Cookie headers and serializes cookie name/value pairs.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.cookie-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.cookie-parser/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.cookie-parser#readme",
+  "keywords": [
+    "cookie",
+    "http",
+    "parser",
+    "web"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
